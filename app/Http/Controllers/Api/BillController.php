@@ -6,6 +6,7 @@ use App\bill;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\BillResource;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class BillController extends Controller
 {
@@ -16,7 +17,11 @@ class BillController extends Controller
      */
     public function index()
     {
-        $bills = bill::all();
+        $bills = DB::table('bills')
+        ->join('inks','inks.id','=','bills.ink_id')
+        ->join('customers','customers.id','=','bills.customer_id')
+        ->join('sellers','sellers.id','=','bills.seller_id')
+        ->get();
 
         return new BillResource($bills);
     }

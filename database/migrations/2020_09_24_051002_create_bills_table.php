@@ -16,8 +16,20 @@ class CreateBillsTable extends Migration
         Schema::create('bills', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('customer_id');
+            $table->foreign('customer_id')
+            ->references('id')
+            ->on('customers')
+            ->onDelete('cascade');
             $table->unsignedBigInteger('seller_id');
+            $table->foreign('seller_id')
+            ->references('id')
+            ->on('sellers')
+            ->onDelete('cascade');
             $table->unsignedBigInteger('ink_id');
+            $table->foreign('ink_id')
+            ->references('id')
+            ->on('inks')
+            ->onDelete('cascade');
             $table->integer('amount');
             $table->timestamps();
         });
