@@ -72,3 +72,5 @@ https://blog.maqe.com/%E0%B8%97%E0%B8%B3-eager-loading-%E0%B8%94%E0%B9%89%E0%B8%
 https://github.com/samironbarai/laravel-rest-api-jwt-auth
 
 https://www.thaicreate.com/community/laravel-eloquent-orm-model.html
+
+https://alchemist.itbangmod.in.th/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-api-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2-kmutt-election-2017-89ea081433d6
