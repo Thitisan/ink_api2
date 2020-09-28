@@ -70,3 +70,5 @@ https://medium.com/yeeraf-co-th/eloquent-laravel-%E0%B8%8A%E0%B8%B3%E0%B9%81%E0%
 https://blog.maqe.com/%E0%B8%97%E0%B8%B3-eager-loading-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-repository-pattern-%E0%B9%83%E0%B8%99-laravel-29b24084523
 
 https://github.com/samironbarai/laravel-rest-api-jwt-auth
+
+https://www.thaicreate.com/community/laravel-eloquent-orm-model.html
